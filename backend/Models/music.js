@@ -8,7 +8,6 @@ class Music {
       const fileName = path.parse(file).name;
       return {
         title: fileName,
-        // artist: 'Unknown',
         url: `/music/${file}`
       };
     });
