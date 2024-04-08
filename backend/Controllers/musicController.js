@@ -7,7 +7,6 @@ const musicController = {
       res.json(musicas);
     } catch (error) {
       console.error('Error ao buscar as musicas:', error);
-      // res.status(500).json({ error: 'Internal Server Error' });
     }
   }
 };
